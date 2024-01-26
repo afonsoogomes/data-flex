@@ -10,10 +10,17 @@ DataFlex is a lightweight JavaScript library designed to simplify and enhance th
 
 ## Installation
 
-Install DataFlex using npm:
+You can install DataFlex using npm, yarn, or pnpm:
 
 ```bash
-npm install data-flex
+# Using npm
+npm install @afonso.oliveiragomes/data-flex
+
+# Using yarn
+yarn add @afonso.oliveiragomes/data-flex
+
+# Using pnpm
+pnpm add @afonso.oliveiragomes/data-flex
 ```
 
 ## Usage
