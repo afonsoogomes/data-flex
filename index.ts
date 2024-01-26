@@ -25,3 +25,13 @@ export const findObjectByKey = <T>(array: T[], key: keyof T, value: T[keyof T]):
 export const sortByKey = <T>(array: T[], key: keyof T, ascending: boolean = true): T[] => {
   return [...array].sort((a, b) => (a[key] > b[key] ? 1 : -1) * (ascending ? 1 : -1))
 }
+
+export default {
+  push,
+  updateObjectAtIndex,
+  removeAtIndex,
+  updateFieldInObject,
+  updateFieldInAllObjects,
+  findObjectByKey,
+  sortByKey
+}
