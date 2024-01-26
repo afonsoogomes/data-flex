@@ -2,7 +2,7 @@
   "name": "@afonso.oliveiragomes/data-flex",
   "version": "1.0.1",
   "description": "DataFlex is a lightweight JavaScript library that provides seamless and flexible operations for manipulating both arrays and objects. Enjoy a simplified syntax for common tasks, making data manipulation effortless and intuitive.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
